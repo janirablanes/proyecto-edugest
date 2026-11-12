@@ -10,6 +10,7 @@ FK: jefe_departamento -> PROFESOR
 
 
 
+
 PROFESOR (dni_profesor, nombre, apellidos, correo, fecha_alta, especialidad, id_departamento)
 
 
@@ -20,10 +21,12 @@ FK: id_departamento -> DEPARTAMENTO
 
 
 
+
 CICLO (codigo_ciclo, nombre, grado, duracion)
 
 
 PK: codigo_ciclo
+
 
 
 
@@ -34,10 +37,12 @@ PK: id_grupo
 
 
 
+
 MODULO (codigo_modulo, curso, nombre, horas)
 
 
 PK: codigo_modulo
+
 
 
 
@@ -48,6 +53,7 @@ PK: nia
 
 
 FK: id_grupo -> GRUPO
+
 
 
 
@@ -64,10 +70,12 @@ FK: codigo_modulo -> MODULO
 
 
 
+
 FALTA_ASISTENCIA (id_faltas, dia, numero_horas, justificada)
 
 
 PK: id_falta
+
 
 
 
